@@ -1,5 +1,5 @@
 package java21features;
-
+/*
 import java.util.concurrent.StructuredTaskScope;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -20,4 +20,4 @@ public class JavaVirtualThreadsExample_4 {
 
         System.out.println("All virtual threads are completed! counter :" + counter);
     }
-}
+}*/

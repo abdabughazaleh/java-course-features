@@ -3,7 +3,7 @@ package java19features;
 import java.time.Duration;
 import java.time.Instant;
 import java.util.List;
-import java.util.concurrent.StructuredTaskScope;
+/*import java.util.concurrent.StructuredTaskScope;*/
 
 
 public class Main3 {
@@ -25,7 +25,7 @@ public class Main3 {
         return List.of("iPhone", "Airpods", "Mobile Cover");
     }
 
-    public static User getUserProfile() throws Exception {
+   /* public static User getUserProfile() throws Exception {
 
         try(var scope = new StructuredTaskScope.ShutdownOnFailure()) {
 
@@ -37,14 +37,14 @@ public class Main3 {
             scope.throwIfFailed();
             return new User(userName.get() , userAccounts.get() , userOrders.get());
         }
-    }
+    }*/
 
     public static void main(String[] args) throws Exception {
         Instant start = Instant.now();
-        var user = getUserProfile();
+       // var user = getUserProfile();
         Instant end = Instant.now();
         Duration duration = Duration.between(start , end);
-        System.out.println(user);
+      //  System.out.println(user);
         System.out.println("==> Time : " + duration.toSeconds() + " seconds" );
     }
 }

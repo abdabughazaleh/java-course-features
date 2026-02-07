@@ -2,7 +2,7 @@ package java21features;
 
 public class StringTemplatesExample {
     public static void main(String[] args) {
-        String email = "abdabughazaleh@gmail.com";
+       /* String email = "abdabughazaleh@gmail.com";
         String customerName = "Abd AbuGhazaleh";
         String subject = "New support ticket!";
         String body = STR."""
@@ -13,6 +13,6 @@ public class StringTemplatesExample {
                     Thanks & Regards.
                 """;
 
-        System.out.println(body);
+        System.out.println(body);*/
     }
 }
