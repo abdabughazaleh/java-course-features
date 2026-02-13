@@ -2,7 +2,6 @@ package java22features;
 
 import java.util.List;
 import java.util.stream.Gatherers;
-
 public class GatherersDemo {
     record Item(String name, String price) {
     }
